@@ -91,7 +91,7 @@ RUNME=0
 
 AUTOCONF=$(echo "$@" | egrep -o "\-\-autoconf" | wc -l)
 if [ $AUTOCONF -ge 1 ]; then
-	labelin; echo " Trying to find intresting log files..."
+	labelin; echo " Trying to find interesting log files..."
 	echo ""
 	echo "# copy under this line and paste in conf/secthemall.conf"
 	echo "# ------------------------------------------------------"
